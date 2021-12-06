@@ -4,7 +4,7 @@ public static void main(String[] args) {
 	object.call();
 	object.move();
 	object.dance();
-
+object.cook();
 	}
 
  }
@@ -31,5 +31,9 @@ abstract class Suresh extends Ramesh
 	public void dance()
 	{
 		System.out.println("dancing");
+	}
+	public void cook()
+	{
+	System.out.println("cooking");
 	}
 }
